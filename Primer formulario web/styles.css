@@ -1,0 +1,66 @@
+body {
+    background-image:url(https://bambu-mobile.com/wp-content/uploads/2022/06/Lenguajes-de-programacion-del-futuro-programacion-lenguajes-de-programacion-python-JS-C-Java-scaled.jpg);
+    font-family: Tahoma;
+    font-size: 16px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.form {
+    border-radius: 5px;
+    background-color: rgba(20,20,70,0.9);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+h1, p {
+    text-align: center;
+    font-size: 25px;
+}
+
+fieldset {
+    text-align: center;
+    border: none;
+    padding: 10%;
+}
+
+input[type="text"] {
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin: 5% 0 5% 0;
+    height: 25px;
+    text-align: center;
+    
+}
+input[type="email"] {
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin: 5% 0 5% 0;
+    height: 25px;
+    text-align: center;
+}
+input[type="number"] {
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin: 5% 0 5% 0;
+    height: 25px;
+    text-align: center;
+}
+select {
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin: 5% 0 5% 0;
+    height: 25px;
+    text-align: center;
+}

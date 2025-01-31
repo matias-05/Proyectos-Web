@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="form">
+        <h1 id="title">Project form by Matías Fernandez</h1>
+        <p id="description">This is a programming project of html and    css technologies</p>
+        <form id="survey-form">
+<fieldset>
+<label id="name-label" for="name" class="data">Name <input  class="block" id="name" type="text" placeholder="Eren Jaeger" required/></label>
+<label class="data" id="email-label" for="email">Email <input class="block" id="email" type="email" placeholder="matias@nicolas" required/></label>
+        <label class="data" id="number-label" for="Age">Age <input class="block" id="number" type="number" placeholder="0" min="0" max="150" required/></label>
+        </fieldset>
+        <fieldset>
+        <label for="dropdown"> How lengauage do you like more ?
+        <select id="dropdown">
+<option value="">(select one)</option>
+<option value="1">C#</option>
+<option value="2">C++</option>
+        </select>
+        </label>
+        </fieldset>
+        <fieldset>
+        <input type="radio" name="radio-button" value="1">
+        <input type="radio" name="radio-button" value="2">
+        </fieldset>
+        <fieldset>
+        <input type="checkbox" value="1">
+        <input type="checkbox" value="2">
+        <input type="checkbox" value="3">
+        <input type="checkbox" value="4">
+        </fieldset>
+        <fieldset>
+        <textarea>
+    
+        </textarea>
+        </fieldset>
+        <fieldset>
+        <input type="submit" id="submit">
+        </fieldset>
+        </form>
+        </div>
+</body>
+</html>
